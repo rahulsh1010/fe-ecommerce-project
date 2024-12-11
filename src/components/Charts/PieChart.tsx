@@ -1,5 +1,3 @@
-// src/PieChart.tsx
-import React from 'react';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { RowData } from '../Table/DataTable';  // Import RowData from DataTable
