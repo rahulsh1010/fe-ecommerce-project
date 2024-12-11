@@ -1,11 +1,12 @@
-// src/App.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DataTable from './components/Table/DataTable';
 import CSVUploader from './components/CSVUploader';
 
 const App = () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const [tableData, setTableData] = useState<any[]>([]);
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleDataLoad = (data: any[]) => {
         setTableData(data);
     };
